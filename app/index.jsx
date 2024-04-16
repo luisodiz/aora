@@ -1,8 +1,7 @@
 import { StatusBar } from 'expo-status-bar'
 import { Image, ScrollView, Text, View } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
-import { router } from 'expo-router'
-import { Redirect } from 'expo-router'
+import { Redirect, router } from 'expo-router'
 
 import { images } from '../constants'
 import CustomButton from '../components/CustomButton'
@@ -43,7 +42,7 @@ export default function App() {
           <CustomButton
             title="Continue with Email"
             handlePress={() => {
-              router.push('/profile')
+              router.push('/sign-in')
             }}
             containerStyles="w-full mt-7"
           />
