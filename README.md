@@ -1,2 +1,3 @@
 # Aora App
-Проект Aora React Native с использованием Expo
+
+Проект приложения на React Native с использованием Expo
